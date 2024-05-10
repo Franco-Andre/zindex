@@ -1,0 +1,48 @@
+body{
+    background: #000;
+    color: #ff0;
+}
+ 
+img{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+ 
+.caja{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-shadow: 2px 2px 10px 10px #ff0;
+}
+ 
+.roja{
+    background-color: #ff7f50;
+    color: #ff0;
+    top: 750px;
+    left: 0;
+}
+ 
+.verde{
+    background: #20b2aa;
+    color: #000;
+    top: 850px;
+    left: 100px;
+    z-index: 3;
+}
+ 
+.azul{
+    background: #87ceeb;
+    color: #00f;
+    top: 950px;
+    left: 200px;
+    z-index: 2;
+}
+
+h3{
+    position: absolute;
+    left: 0px;
+ /*   top: 650px; */
+    z-index: 1;
+}
+ 
